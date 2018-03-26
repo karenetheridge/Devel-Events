@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 
 package Devel::Events::Handler::Multiplex;
+# ABSTRACT: Delegate events to multiple handlers
+
 use Moose;
 
 with qw/Devel::Events::Handler/;
@@ -54,10 +56,6 @@ __PACKAGE__;
 __END__
 
 =pod
-
-=head1 NAME
-
-Devel::Events::Handler::Multiplex - Delegate events to multiple handlers
 
 =head1 SYNOPSIS
 

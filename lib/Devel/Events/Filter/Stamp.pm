@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 
 package Devel::Events::Filter::Stamp;
+# ABSTRACT: Add time/context stamping to events
+
 use Moose;
 
 with qw/Devel::Events::Filter/;
@@ -35,10 +37,6 @@ __PACKAGE__;
 __END__
 
 =pod
-
-=head1 NAME
-
-Devel::Events::Filter::Stamp - Add time/context stamping to events
 
 =head1 SYNOPSIS
 

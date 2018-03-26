@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 
 package Devel::Events::Filter::Stringify;
+# ABSTRACT: A simple event filter to prevent leaks
+
 use Moose;
 
 use Scalar::Util qw/reftype/;
@@ -40,10 +42,6 @@ __PACKAGE__;
 __END__
 
 =pod
-
-=head1 NAME
-
-Devel::Events::Filter::Stringify - A simple event filter to prevent leaks
 
 =head1 SYNOPSIS
 

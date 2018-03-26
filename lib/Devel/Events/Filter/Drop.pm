@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 
 package Devel::Events::Filter::Drop;
+# ABSTRACT: Remove events that match or don't match a condition
+
 use Moose;
 
 with qw/Devel::Events::Filter/;
@@ -58,11 +60,6 @@ __PACKAGE__;
 __END__
 
 =pod
-
-=head1 NAME
-
-Devel::Events::Filter::Drop - Remove events that match or don't match a
-condition.
 
 =head1 SYNOPSIS
 

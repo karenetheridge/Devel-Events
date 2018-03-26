@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 
 package Devel::Events::Filter::RemoveFields;
+# ABSTRACT: Remove certain fields from events
+
 use Moose;
 
 with qw/Devel::Events::Filter/;
@@ -42,10 +44,6 @@ __PACKAGE__;
 __END__
 
 =pod
-
-=head1 NAME
-
-Devel::Events::Filter::RemoveFields - Remove certain fields from events
 
 =head1 SYNOPSIS
 

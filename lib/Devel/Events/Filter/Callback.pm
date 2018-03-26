@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 
 package Devel::Events::Filter::Callback;
+# ABSTRACT: Callback based L<Devel::Events::Filter>
+
 use Moose;
 
 with qw/Devel::Events::Filter/;
@@ -21,10 +23,6 @@ __PACKAGE__;
 __END__
 
 =pod
-
-=head1 NAME
-
-Devel::Events::Filter::Callback - Callback based L<Devel::Events::Filter>
 
 =head1 SYNOPSIS
 

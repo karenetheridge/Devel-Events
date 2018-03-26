@@ -3,6 +3,8 @@
 BEGIN { $^P |= 0x02 }
 
 package Devel::Events::Generator::LineTrace;
+# ABSTRACT: Generate C<executing_line> events using the perl debugger api
+
 use Moose;
 
 with qw/Devel::Events::Generator/;
@@ -39,11 +41,6 @@ __PACKAGE__;
 __END__
 
 =pod
-
-=head1 NAME
-
-Devel::Events::Generator::LineTrace - generate C<executing_line> events using
-the perl debugger api.
 
 =head1 SYNOPSIS
 

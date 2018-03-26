@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 
 package Devel::Events;
+# ABSTRACT: Extensible instrumentation framework
 
 use strict;
 use warnings;
@@ -12,10 +13,6 @@ __PACKAGE__;
 __END__
 
 =pod
-
-=head1 NAME
-
-Devel::Events - Extensible instrumentation framework.
 
 =head1 SYNOPSIS
 
@@ -143,16 +140,6 @@ All events are passed as lists.
 
 The default components will generate lists containing a single string which is
 the event name, and then a list of key/value pairs.
-
-=head1 AUTHOR
-
-Yuval Kogman <nothingmuch@woobling.org>
-
-=head1 COPYRIGHT & LICENSE
-
-	Copyright (c) 2007 Yuval Kogman. All rights reserved
-	This program is free software; you can redistribute it and/or modify it
-	under the terms of the MIT license or the same terms as Perl itself.
 
 =cut
 

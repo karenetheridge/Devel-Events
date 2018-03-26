@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 
 package Devel::Events::Filter;
+# ABSTRACT: A handler role that filters events and delegates to another
+
 use Moose::Role;
 
 with qw/Devel::Events::Handler/;
@@ -32,11 +34,6 @@ __PACKAGE__;
 __END__
 
 =pod
-
-=head1 NAME
-
-Devel::Events::Filter - A handler role that filters events and delegates to
-another.
 
 =head1 SYNOPSIS
 

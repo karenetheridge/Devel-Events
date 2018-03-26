@@ -1,0 +1,6 @@
+/.ackrc
+/.build/
+!/.gitignore
+/.latest
+/Devel-Events-*/
+/Devel-Events-*.tar.gz

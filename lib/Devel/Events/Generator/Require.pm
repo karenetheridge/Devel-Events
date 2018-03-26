@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 
 package Devel::Events::Generator::Require;
+# ABSTRACT: Event generator for loading of code using C<require>
 
 use strict;
 use warnings;
@@ -88,11 +89,6 @@ __PACKAGE__;
 __END__
 
 =pod
-
-=head1 NAME
-
-Devel::Events::Generator::Require - Event generator for loading of code using
-C<require>.
 
 =head1 SYNOPSIS
 

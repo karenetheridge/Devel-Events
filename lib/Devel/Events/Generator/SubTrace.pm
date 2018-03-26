@@ -6,6 +6,8 @@ use Moose::Role ();
 BEGIN { $^P |= 0x01 }
 
 package Devel::Events::Generator::SubTrace;
+# ABSTRACT: generate C<executing_line> events using the perl debugger api
+
 use Moose;
 
 with qw/Devel::Events::Generator/;
@@ -18,7 +20,8 @@ our ( $IGNORE, $DEPTH ); # can't local a lexical ;_;
 BEGIN { $DEPTH = -1 };
 
 {
-	package DB;
+	package # hide from PAUSE, version management
+            DB;
 
 	our $sub;
 
@@ -106,11 +109,6 @@ __END__
 
 
 =pod
-
-=head1 NAME
-
-Devel::Events::Generator::SubTrace - generate C<executing_line> events using
-the perl debugger api.
 
 =head1 SYNOPSIS
 

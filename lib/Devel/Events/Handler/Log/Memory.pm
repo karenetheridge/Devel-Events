@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 
 package Devel::Events::Handler::Log::Memory;
+# ABSTRACT: An optional base role for event generators.
+
 use Moose;
 
 with qw/Devel::Events::Handler/;
@@ -60,10 +62,6 @@ __PACKAGE__;
 __END__
 
 =pod
-
-=head1 NAME
-
-Devel::Events::Handler::Log::Memory - An optional base role for event generators.
 
 =head1 SYNOPSIS
 

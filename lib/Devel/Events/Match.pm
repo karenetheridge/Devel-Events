@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 
 package Devel::Events::Match;
+# ABSTRACT: Event matching, splicing and dicing.
+
 use Moose;
 
 use Carp qw/croak/;
@@ -190,10 +192,6 @@ __PACKAGE__;
 __END__
 
 =pod
-
-=head1 NAME
-
-Devel::Events::Match - Event matching, splicing and dicing.
 
 =head1 SYNOPSIS
 

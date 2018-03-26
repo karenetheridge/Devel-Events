@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 
 package Devel::Events::Handler;
+# ABSTRACT: An optional base role for event handlers.
+
 use Moose::Role;
 
 requires "new_event";
@@ -10,10 +12,6 @@ __PACKAGE__;
 __END__
 
 =pod
-
-=head1 NAME
-
-Devel::Events::Handler - An optional base role for event handlers.
 
 =head1 SYNOPSIS
 

@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 
 package Devel::Events::Handler::Callback;
+# ABSTRACT: An event handler that delegates to code references.
+
 use Moose;
 
 with qw/Devel::Events::Handler/;
@@ -29,10 +31,6 @@ __PACKAGE__;
 __END__
 
 =pod
-
-=head1 NAME
-
-Devel::Events::Handler::Callback - An event handler that delegates to code references.
 
 =head1 SYNOPSIS
 

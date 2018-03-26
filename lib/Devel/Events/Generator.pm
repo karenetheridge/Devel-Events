@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 
 package Devel::Events::Generator;
+# ABSTRACT: An optional base role for event generators.
+
 use Moose::Role;
 
 has handler => (
@@ -20,10 +22,6 @@ __PACKAGE__;
 __END__
 
 =pod
-
-=head1 NAME
-
-Devel::Events::Generator - An optional base role for event generators.
 
 =head1 SYNOPSIS
 

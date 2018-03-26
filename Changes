@@ -1,5 +1,8 @@
 Revision history for Devel-Events
 
+{{$NEXT}}
+        - converted packaging to Dist::Zilla
+
 0.08    2009-10-08
 	- missing dep in Try::Tiny
 

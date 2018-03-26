@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 
 package Devel::Events::Filter::HandlerOptional;
+# ABSTRACT: A role for filters that are useful even without a handler
+
 use Moose::Role;
 
 with 'Devel::Events::Filter' => { excludes => [qw(send_filtered_event)] };
@@ -35,11 +37,6 @@ __PACKAGE__;
 __END__
 
 =pod
-
-=head1 NAME
-
-Devel::Events::Filter::HandlerOptional - A role for filters that are useful
-even without a handler.
 
 =head1 SYNOPSIS
 

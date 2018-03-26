@@ -19,7 +19,7 @@ $g->enable();
 
 is_deeply( \@log, [], "log empty" );
 
-eval { require "this_file_does_not_exist.pm" };
+eval { +require "this_file_does_not_exist.pm" };
 
 is_deeply(
 	\@log,
@@ -37,7 +37,7 @@ is_deeply(
 
 @log = ();
 
-eval { require This::Module::Does::Not::Exist };
+eval { +require This::Module::Does::Not::Exist };
 
 is_deeply(
 	\@log,
@@ -55,7 +55,7 @@ is_deeply(
 
 @log = ();
 
-eval { require File::Find };
+eval { +require File::Find };
 
 @log = @log[0,-1]; # don't care about what File::Find.pm required
 

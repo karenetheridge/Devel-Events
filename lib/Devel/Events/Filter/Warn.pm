@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 
 package Devel::Events::Filter::Warn;
+# ABSTRACT: log every event to STDERR
+
 use Moose;
 
 use overload ();
@@ -87,10 +89,6 @@ __PACKAGE__;
 __END__
 
 =pod
-
-=head1 NAME
-
-Devel::Events::Filter::Warn - log every event to STDERR
 
 =head1 SYNOPSIS
 
