@@ -1,6 +1,6 @@
 Revision history for Devel-Events
 
-{{$NEXT}}
+0.09      2018-03-27 00:57:48Z
         - converted packaging to Dist::Zilla
         - fixed tests that expect an error message that changed in perl 5.18.0
           (RT#124882)
