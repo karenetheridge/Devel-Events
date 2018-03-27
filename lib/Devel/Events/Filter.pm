@@ -70,9 +70,13 @@ In the future this design choice might change.
 
 =head1 ATTRIBUTES
 
+=over 4
+
 =item handler
 
 A L<Devel::Events::Handler> to delegate to.
+
+=back
 
 =head1 METHODS
 

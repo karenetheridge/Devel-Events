@@ -213,6 +213,8 @@ access into the event log.
 
 =head1 METHODS
 
+=over 4
+
 =item compile_cond
 
 Used to compile condition values into code references.
@@ -271,6 +273,8 @@ The first chunk contains all the events up to the first matching one.
 =item drop_until %args
 
 Require the C<match> and C<events> parameters.
+
+=back
 
 =cut
 

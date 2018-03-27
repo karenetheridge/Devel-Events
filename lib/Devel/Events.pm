@@ -59,6 +59,8 @@ properly analyze the events you are interested in.
 
 =head2 Generators
 
+=over 4
+
 =item L<Devel::Events::Generator::Objects>
 
 Generate C<object_bless> and C<object_destroy> events by overriding
@@ -76,7 +78,11 @@ Fires an C<executing_line> event for every line using the perl debugger hook.
 
 Fires events for C<require> and c<use> calls.
 
+=back
+
 =head2 Handlers
+
+=over 4
 
 =item L<Devel::Events::Handler::Multiplex>
 

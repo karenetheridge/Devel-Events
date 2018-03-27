@@ -173,11 +173,11 @@ The context of the call as given by C<wantarray>
 
 Exactly like C<enter_sub>, but fired just after leaving the subroutine.
 
-=over 4
-
 All the fields of C<enter_sub> are passed.
 
 Additional fields:
+
+=over 4
 
 =item ret
 
