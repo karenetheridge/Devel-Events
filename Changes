@@ -2,6 +2,8 @@ Revision history for Devel-Events
 
 {{$NEXT}}
         - converted packaging to Dist::Zilla
+        - fixed tests that expect an error message that changed in perl 5.18.0
+          (RT#124882)
 
 0.08    2009-10-08
 	- missing dep in Try::Tiny
