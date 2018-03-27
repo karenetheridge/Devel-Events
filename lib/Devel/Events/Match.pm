@@ -2,7 +2,7 @@
 
 package Devel::Events::Match;
 # ABSTRACT: Event matching, splicing and dicing.
-
+our $VERSION = '0.10';
 use Moose;
 
 use Carp qw/croak/;

@@ -2,7 +2,7 @@
 
 package Devel::Events::Handler::Multiplex;
 # ABSTRACT: Delegate events to multiple handlers
-
+our $VERSION = '0.10';
 use Moose;
 
 with qw/Devel::Events::Handler/;

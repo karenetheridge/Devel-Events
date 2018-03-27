@@ -2,7 +2,7 @@
 
 package Devel::Events::Generator;
 # ABSTRACT: An optional base role for event generators.
-
+our $VERSION = '0.10';
 use Moose::Role;
 
 has handler => (

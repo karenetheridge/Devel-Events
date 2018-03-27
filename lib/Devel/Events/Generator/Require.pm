@@ -2,7 +2,7 @@
 
 package Devel::Events::Generator::Require;
 # ABSTRACT: Event generator for loading of code using C<require>
-
+our $VERSION = '0.10';
 use strict;
 use warnings;
 

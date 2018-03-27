@@ -2,7 +2,7 @@
 
 package Devel::Events::Handler::Callback;
 # ABSTRACT: An event handler that delegates to code references.
-
+our $VERSION = '0.10';
 use Moose;
 
 with qw/Devel::Events::Handler/;

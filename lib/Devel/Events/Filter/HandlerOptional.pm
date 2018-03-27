@@ -2,7 +2,7 @@
 
 package Devel::Events::Filter::HandlerOptional;
 # ABSTRACT: A role for filters that are useful even without a handler
-
+our $VERSION = '0.10';
 use Moose::Role;
 
 with 'Devel::Events::Filter' => { excludes => [qw(send_filtered_event)] };

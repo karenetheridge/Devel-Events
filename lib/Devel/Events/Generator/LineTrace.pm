@@ -4,7 +4,7 @@ BEGIN { $^P |= 0x02 }
 
 package Devel::Events::Generator::LineTrace;
 # ABSTRACT: Generate C<executing_line> events using the perl debugger api
-
+our $VERSION = '0.10';
 use Moose;
 
 with qw/Devel::Events::Generator/;

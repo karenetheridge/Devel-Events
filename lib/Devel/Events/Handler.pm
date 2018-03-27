@@ -2,7 +2,7 @@
 
 package Devel::Events::Handler;
 # ABSTRACT: An optional base role for event handlers.
-
+our $VERSION = '0.10';
 use Moose::Role;
 
 requires "new_event";

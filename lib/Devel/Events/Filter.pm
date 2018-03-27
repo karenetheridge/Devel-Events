@@ -2,7 +2,7 @@
 
 package Devel::Events::Filter;
 # ABSTRACT: A handler role that filters events and delegates to another
-
+our $VERSION = '0.10';
 use Moose::Role;
 
 with qw/Devel::Events::Handler/;

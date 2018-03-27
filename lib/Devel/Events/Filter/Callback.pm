@@ -2,7 +2,7 @@
 
 package Devel::Events::Filter::Callback;
 # ABSTRACT: Callback based L<Devel::Events::Filter>
-
+our $VERSION = '0.10';
 use Moose;
 
 with qw/Devel::Events::Filter/;

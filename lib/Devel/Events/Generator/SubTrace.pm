@@ -7,7 +7,7 @@ BEGIN { $^P |= 0x01 }
 
 package Devel::Events::Generator::SubTrace;
 # ABSTRACT: generate C<executing_line> events using the perl debugger api
-
+our $VERSION = '0.10';
 use Moose;
 
 with qw/Devel::Events::Generator/;

@@ -2,7 +2,7 @@
 
 package Devel::Events::Filter::RemoveFields;
 # ABSTRACT: Remove certain fields from events
-
+our $VERSION = '0.10';
 use Moose;
 
 with qw/Devel::Events::Filter/;

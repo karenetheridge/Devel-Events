@@ -2,7 +2,7 @@
 
 package Devel::Events::Filter::Stringify;
 # ABSTRACT: A simple event filter to prevent leaks
-
+our $VERSION = '0.10';
 use Moose;
 
 use Scalar::Util qw/reftype/;
