@@ -1,5 +1,3 @@
-#!/usr/bin/perl
-
 package Devel::Events::Handler;
 # ABSTRACT: An optional base role for event handlers.
 our $VERSION = '0.10';

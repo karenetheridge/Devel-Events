@@ -1,5 +1,3 @@
-#!/usr/bin/perl
-
 package Devel::Events::Filter::Stamp;
 # ABSTRACT: Add time/context stamping to events
 our $VERSION = '0.10';

@@ -1,5 +1,3 @@
-#!/usr/bin/perl
-
 package Devel::Events::Filter::Drop;
 # ABSTRACT: Remove events that match or don't match a condition
 our $VERSION = '0.10';

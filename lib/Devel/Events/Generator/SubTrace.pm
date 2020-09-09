@@ -1,5 +1,3 @@
-#!/usr/bin/perl
-
 use Moose ();
 use Moose::Role ();
 

@@ -1,5 +1,3 @@
-#!/usr/bin/perl
-
 package Devel::Events::Filter::Stringify;
 # ABSTRACT: A simple event filter to prevent leaks
 our $VERSION = '0.10';

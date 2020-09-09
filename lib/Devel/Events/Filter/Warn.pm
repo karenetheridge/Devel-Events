@@ -1,5 +1,3 @@
-#!/usr/bin/perl
-
 package Devel::Events::Filter::Warn;
 # ABSTRACT: log every event to STDERR
 our $VERSION = '0.10';

@@ -1,5 +1,3 @@
-#!/usr/bin/perl
-
 package Devel::Events::Handler::Log::Memory;
 # ABSTRACT: An optional base role for event generators.
 our $VERSION = '0.10';

@@ -1,5 +1,3 @@
-#!/usr/bin/perl
-
 package Devel::Events::Filter::Callback;
 # ABSTRACT: Callback based L<Devel::Events::Filter>
 our $VERSION = '0.10';

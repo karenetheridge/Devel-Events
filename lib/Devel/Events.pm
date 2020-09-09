@@ -1,5 +1,3 @@
-#!/usr/bin/perl
-
 package Devel::Events;
 # ABSTRACT: Extensible instrumentation framework
 
