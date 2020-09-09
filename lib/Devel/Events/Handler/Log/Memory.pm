@@ -8,8 +8,6 @@ with qw/Devel::Events::Handler/;
 
 use Devel::Events::Match;
 
-use MooseX::AttributeHelpers;
-
 has matcher => (
 	isa => "Devel::Events::Match",
 	is  => "rw",
@@ -35,15 +33,15 @@ has matcher => (
 );
 
 has events => (
-	metaclass => 'Collection::Array',
 	isa => "ArrayRef",
 	is  => "ro",
 	default    => sub { [] },
 	auto_deref => 1,
-	provides   => {
-		push  => 'add_event',
-		clear => 'clear',
-	},
+  traits => ['Array'],
+  handles => {
+    clear => 'clear',
+    add_event => 'push',
+  },
 );
 
 sub new_event {
