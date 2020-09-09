@@ -1,4 +1,5 @@
 package Devel::Events::Handler;
+# vim: set ts=2 sw=2 noet nolist :
 # ABSTRACT: An optional base role for event handlers.
 our $VERSION = '0.10';
 use Moose::Role;

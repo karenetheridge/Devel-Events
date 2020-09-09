@@ -1,6 +1,7 @@
 BEGIN { $^P |= 0x02 }
 
 package Devel::Events::Generator::LineTrace;
+# vim: set ts=2 sw=2 noet nolist :
 # ABSTRACT: Generate C<executing_line> events using the perl debugger api
 our $VERSION = '0.10';
 use Moose;

@@ -1,4 +1,5 @@
 package Devel::Events::Filter::Callback;
+# vim: set ts=2 sw=2 noet nolist :
 # ABSTRACT: Callback based L<Devel::Events::Filter>
 our $VERSION = '0.10';
 use Moose;

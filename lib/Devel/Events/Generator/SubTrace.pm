@@ -4,6 +4,7 @@ use Moose::Role ();
 BEGIN { $^P |= 0x01 }
 
 package Devel::Events::Generator::SubTrace;
+# vim: set ts=2 sw=2 noet nolist :
 # ABSTRACT: generate C<executing_line> events using the perl debugger api
 our $VERSION = '0.10';
 use Moose;

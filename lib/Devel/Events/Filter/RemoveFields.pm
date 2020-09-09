@@ -1,4 +1,5 @@
 package Devel::Events::Filter::RemoveFields;
+# vim: set ts=2 sw=2 noet nolist :
 # ABSTRACT: Remove certain fields from events
 our $VERSION = '0.10';
 use Moose;

@@ -1,4 +1,5 @@
 package Devel::Events::Handler::Callback;
+# vim: set ts=2 sw=2 noet nolist :
 # ABSTRACT: An event handler that delegates to code references.
 our $VERSION = '0.10';
 use Moose;

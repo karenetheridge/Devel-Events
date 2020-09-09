@@ -1,4 +1,5 @@
 package Devel::Events::Handler::Multiplex;
+# vim: set ts=2 sw=2 noet nolist :
 # ABSTRACT: Delegate events to multiple handlers
 our $VERSION = '0.10';
 use Moose;

@@ -1,3 +1,4 @@
+# vim: set ts=2 sw=2 noet nolist :
 use strict;
 use warnings;
 

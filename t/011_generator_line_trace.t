@@ -1,5 +1,5 @@
 #!/usr/bin/perl -d:Events
-
+# vim: set ts=2 sw=2 noet nolist :
 use strict;
 use warnings;
 

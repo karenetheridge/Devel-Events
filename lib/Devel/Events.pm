@@ -1,4 +1,5 @@
 package Devel::Events;
+# vim: set ts=2 sw=2 noet nolist :
 # ABSTRACT: Extensible instrumentation framework
 
 use strict;

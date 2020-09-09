@@ -1,4 +1,5 @@
 package Devel::Events::Filter::HandlerOptional;
+# vim: set ts=2 sw=2 noet nolist :
 # ABSTRACT: A role for filters that are useful even without a handler
 our $VERSION = '0.10';
 use Moose::Role;
