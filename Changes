@@ -1,6 +1,6 @@
 Revision history for Devel-Events
 
-{{$NEXT}}
+0.10      2024-10-01 19:32:23Z
         - remove the use of MooseX::AttributeHelpers
         - fix test for changes to an error message in perl 5.37.7
 
