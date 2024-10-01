@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-use Test::More 'no_plan';
+use Test::More 0.88;
 use Test::Deep;
 
 use Devel::Events::Handler::Callback;
@@ -76,3 +76,5 @@ is_deeply(
 	],
 	"log events"
 );
+
+done_testing;

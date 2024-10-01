@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-use Test::More 'no_plan';
+use Test::More 0.88;
 
 use ok 'Devel::Events::Handler::Log::Memory';
 
@@ -53,3 +53,5 @@ is_deeply(
 	"limit",
 );
 
+
+done_testing;

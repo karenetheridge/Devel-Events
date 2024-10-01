@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-use Test::More 'no_plan';
+use Test::More 0.88;
 
 use ok 'Devel::Events::Filter::Drop';
 
@@ -34,3 +34,5 @@ use Devel::Events::Handler::Callback;
 
 	is_deeply( \@events, [ [ foo => bar => 42 ] ], "non matching" );
 }
+
+done_testing;

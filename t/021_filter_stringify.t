@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-use Test::More 'no_plan';
+use Test::More 0.88;
 
 use Devel::Events::Handler::Callback;
 
@@ -23,3 +23,4 @@ is_deeply(
 	"event stringified",
 );
 
+done_testing;

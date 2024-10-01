@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-use Test::More 'no_plan';
+use Test::More 0.88;
 
 use ok 'Devel::Events';
 
@@ -25,3 +25,4 @@ use ok 'Devel::Events::Filter::Stringify';
 use ok 'Devel::Events::Filter::Drop';
 use ok 'Devel::Events::Filter::Warn';
 
+done_testing;
