@@ -1,7 +1,7 @@
 package Devel::Events::Match;
 # vim: set ts=2 sw=2 noet nolist :
 # ABSTRACT: Event matching, splicing and dicing.
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 use Moose;
 
 use Carp qw/croak/;

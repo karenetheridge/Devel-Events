@@ -1,7 +1,7 @@
 package Devel::Events::Filter::Stamp;
 # vim: set ts=2 sw=2 noet nolist :
 # ABSTRACT: Add time/context stamping to events
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 use Moose;
 
 with qw/Devel::Events::Filter/;

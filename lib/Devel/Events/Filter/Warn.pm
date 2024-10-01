@@ -1,7 +1,7 @@
 package Devel::Events::Filter::Warn;
 # vim: set ts=2 sw=2 noet nolist :
 # ABSTRACT: log every event to STDERR
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 use Moose;
 
 use overload ();

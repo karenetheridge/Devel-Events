@@ -1,7 +1,7 @@
 package Devel::Events::Filter;
 # vim: set ts=2 sw=2 noet nolist :
 # ABSTRACT: A handler role that filters events and delegates to another
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 use Moose::Role;
 
 with qw/Devel::Events::Handler/;

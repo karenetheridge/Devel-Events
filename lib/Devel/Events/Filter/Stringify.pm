@@ -1,7 +1,7 @@
 package Devel::Events::Filter::Stringify;
 # vim: set ts=2 sw=2 noet nolist :
 # ABSTRACT: A simple event filter to prevent leaks
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 use Moose;
 
 use Scalar::Util qw/reftype/;

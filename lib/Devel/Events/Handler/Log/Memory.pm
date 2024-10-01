@@ -1,7 +1,7 @@
 package Devel::Events::Handler::Log::Memory;
 # vim: set ts=2 sw=2 noet nolist :
 # ABSTRACT: An optional base role for event generators.
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 use Moose;
 
 with qw/Devel::Events::Handler/;
